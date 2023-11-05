@@ -14,6 +14,8 @@
 		6CC2340C2AF72F7F002938D3 /* SpellingBeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2340B2AF72F7F002938D3 /* SpellingBeeTests.swift */; };
 		6CC234162AF72F7F002938D3 /* SpellingBeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC234152AF72F7F002938D3 /* SpellingBeeUITests.swift */; };
 		6CC234182AF72F7F002938D3 /* SpellingBeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC234172AF72F7F002938D3 /* SpellingBeeUITestsLaunchTests.swift */; };
+		6CC234252AF72FE5002938D3 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC234242AF72FE5002938D3 /* Board.swift */; };
+		6CC234272AF73008002938D3 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC234262AF73008002938D3 /* Hexagon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		6CC234112AF72F7F002938D3 /* SpellingBeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpellingBeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CC234152AF72F7F002938D3 /* SpellingBeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingBeeUITests.swift; sourceTree = "<group>"; };
 		6CC234172AF72F7F002938D3 /* SpellingBeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingBeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6CC234242AF72FE5002938D3 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		6CC234262AF73008002938D3 /* Hexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		6CC233F82AF72F7E002938D3 /* SpellingBee */ = {
 			isa = PBXGroup;
 			children = (
+				6CC234262AF73008002938D3 /* Hexagon.swift */,
+				6CC234242AF72FE5002938D3 /* Board.swift */,
 				6CC233F92AF72F7E002938D3 /* SpellingBeeApp.swift */,
 				6CC233FB2AF72F7E002938D3 /* ContentView.swift */,
 				6CC233FD2AF72F7F002938D3 /* Assets.xcassets */,
@@ -261,6 +267,8 @@
 			files = (
 				6CC233FC2AF72F7E002938D3 /* ContentView.swift in Sources */,
 				6CC233FA2AF72F7E002938D3 /* SpellingBeeApp.swift in Sources */,
+				6CC234272AF73008002938D3 /* Hexagon.swift in Sources */,
+				6CC234252AF72FE5002938D3 /* Board.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
